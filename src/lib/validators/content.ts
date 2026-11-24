@@ -57,6 +57,7 @@ export const eventSchema = z.object({
   locationAr: z.string().trim().min(1),
   categoryEn: z.string().trim().min(1),
   categoryAr: z.string().trim().min(1),
+  status: z.enum(["upcoming", "ended"]).optional(),
 });
 
 export const courseSchema = z.object({

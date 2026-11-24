@@ -48,6 +48,7 @@ export interface Event {
   categoryAr: string;
   registeredCount: number;
   image?: string;
+  status?: 'upcoming' | 'ended';
 }
 
 export interface Course {

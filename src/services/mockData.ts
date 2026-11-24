@@ -690,13 +690,14 @@ export const mockEvents: Event[] = [
     titleAr: "ملتقى SHIFT 2027 الإقليمي للابتكار المناخي الشبابي",
     descriptionEn: "Join emerging Arab innovators, green entrepreneurs, and university fellows for hands-on climate tech labs, live AgriClash tournaments, and project showcases.",
     descriptionAr: "ملتقى إقليمي يجمع المبتكرين الشباب ورواد الأعمال الخضراء وزملاء الجامعات في مختبرات تقنية تطبيقية، وتجارب AgriClash الحية، ومعرض للمشاريع البيئية الرائدة.",
-    date: "2027-02-20",
+    date: "2026-02-20",
     locationEn: "Dubai & Hybrid Regional Broadcast",
     locationAr: "دبي وبث إقليمي هجين (حضوري وعن بُعد)",
     categoryEn: "Conference",
     categoryAr: "مؤتمرات وملتقيات",
     registeredCount: 185,
-    image: "/shift-cohort-1-graduation-2026.jpg"
+    image: "/shift-cohort-1-graduation-2026.jpg",
+    status: "ended"
   },
   {
     id: "climatify-sustainability-week-2027",
@@ -704,13 +705,14 @@ export const mockEvents: Event[] = [
     titleAr: "ملتقى يوم الأرض وأسبوع الاستدامة الإقليمي 2027",
     descriptionEn: "A multi-campus series of self-watering planting workshops, circular art activations, and student climate hackathons across UAE and Egyptian partner universities.",
     descriptionAr: "سلسلة فعاليات جامعية تشمل ورش الزراعة ذاتية الري، وفنون الاقتصاد الدائري، وتحديات الابتكار المناخي بالشراكة مع الجامعات في الإمارات ومصر.",
-    date: "2027-04-22",
+    date: "2026-04-22",
     locationEn: "UAE & Partner University Campuses",
     locationAr: "دولة الإمارات والجامعات الشريكة إقليمياً",
     categoryEn: "Workshop",
     categoryAr: "ورش عمل",
     registeredCount: 94,
-    image: "/earth-day-event-2025.jpg"
+    image: "/earth-day-event-2025.jpg",
+    status: "ended"
   },
   {
 
@@ -734,7 +736,8 @@ export const mockEvents: Event[] = [
 
     categoryAr: "مؤتمرات وملتقيات",
 
-    registeredCount: 0
+    registeredCount: 0,
+    status: "ended"
 
   },
 
@@ -760,7 +763,8 @@ export const mockEvents: Event[] = [
 
     categoryAr: "هاكاثونات ومسابقات",
 
-    registeredCount: 250
+    registeredCount: 250,
+    status: "ended"
 
   },
 
@@ -786,7 +790,8 @@ export const mockEvents: Event[] = [
 
     categoryAr: "توعية ومشاركات",
 
-    registeredCount: 0
+    registeredCount: 0,
+    status: "ended"
 
   },
 
@@ -812,7 +817,8 @@ export const mockEvents: Event[] = [
 
     categoryAr: "ورش عمل",
 
-    registeredCount: 0
+    registeredCount: 0,
+    status: "ended"
 
   },
 
@@ -838,7 +844,8 @@ export const mockEvents: Event[] = [
 
     categoryAr: "مؤتمرات وملتقيات",
 
-    registeredCount: 0
+    registeredCount: 0,
+    status: "ended"
 
   },
 
@@ -864,7 +871,8 @@ export const mockEvents: Event[] = [
 
     categoryAr: "توعية ومشاركات",
 
-    registeredCount: 0
+    registeredCount: 0,
+    status: "ended"
 
   },
 
@@ -890,7 +898,8 @@ export const mockEvents: Event[] = [
 
     categoryAr: "أسبوع الاستدامة",
 
-    registeredCount: 420
+    registeredCount: 420,
+    status: "ended"
 
   }
 
@@ -5026,7 +5035,7 @@ export const mockAdminStats: AdminStats = {
 
   activeMembers: "128",
 
-  upcomingEvents: "3",
+  upcomingEvents: "0",
 
   publishedPosts: "12",
 

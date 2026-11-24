@@ -167,8 +167,9 @@ export const Events: React.FC = () => {
 
   /** فعالية انتهت — تُعرض مؤرشفة ومغلقة للتسجيل. */
   const isPastEvent = useCallback(
-    (date: string): boolean => {
-      const time = eventTime(date);
+    (event: Event): boolean => {
+      if (event.status === "ended") return true;
+      const time = eventTime(event.date);
       return !Number.isFinite(time) || time < todayTs;
     },
     [todayTs]
@@ -178,8 +179,9 @@ export const Events: React.FC = () => {
    * فعالية مفتوحة للتسجيل = تاريخ صالح وغير منتهٍ في المستقبل.
    */
   const isRegistrableEvent = useCallback(
-    (date: string): boolean => {
-      const time = eventTime(date);
+    (event: Event): boolean => {
+      if (event.status === "ended") return false;
+      const time = eventTime(event.date);
       return Number.isFinite(time) && time >= todayTs;
     },
     [todayTs]
@@ -212,8 +214,8 @@ export const Events: React.FC = () => {
    */
   const sortedEvents = useMemo(() => {
     return [...events].sort((a, b) => {
-      const aPast = isPastEvent(a.date);
-      const bPast = isPastEvent(b.date);
+      const aPast = isPastEvent(a);
+      const bPast = isPastEvent(b);
       if (aPast !== bPast) return aPast ? 1 : -1;
       const aTime = eventTime(a.date);
       const bTime = eventTime(b.date);
@@ -223,7 +225,7 @@ export const Events: React.FC = () => {
 
   // Featured event — next upcoming event by date
   const featuredEvent = useMemo(
-    () => sortedEvents.find((e) => isRegistrableEvent(e.date)) ?? null,
+    () => sortedEvents.find((e) => isRegistrableEvent(e)) ?? null,
     [sortedEvents, isRegistrableEvent]
   );
 
@@ -719,7 +721,7 @@ export const Events: React.FC = () => {
             <div className="events-grid">
               {filteredEvents.map((event) => {
                 const Icon = getCategoryIcon(event.categoryEn);
-                const past = isPastEvent(event.date);
+                const past = isPastEvent(event);
                 const isPortfolio = isPortfolioEvent(event);
                 const registrable = !past;
                 return (
