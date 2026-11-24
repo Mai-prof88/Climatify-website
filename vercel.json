@@ -162,7 +162,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!assets/|.*\\.(?:js|css|map|png|jpg|jpeg|gif|svg|ico|webp|avif|woff|woff2|ttf|mp4|webm|wasm|pdf|xml|txt|webmanifest)$).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
