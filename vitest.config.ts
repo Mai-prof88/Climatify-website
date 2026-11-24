@@ -19,6 +19,7 @@ export default defineConfig({
     // الصامت القديم (fallback للـ mock عند فشل الشبكة) كان هو اللي بيخليها تعدي.
     env: {
       VITE_USE_MOCK_API: "true",
+      VITE_USE_SUPABASE: "false",
     },
   },
 });
