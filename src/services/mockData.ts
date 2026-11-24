@@ -595,7 +595,7 @@ export const mockInitiatives: Initiative[] = [
 
     descriptionAr: "محاكاة استثمارية وتحدٍّ بيئي ريادي، تقدم فيه الفرق والشركات الناشئة حلولاً بيئية مبتكرة أمام لجان تحكيم ومستثمرين لاكتساب التمويل والتوجيه.",
 
-    image: "/climatify-ice-2024-hackathon-projectset.jpg",
+    image: "/games/green-sharks.webp",
 
     categoryEn: "Environmental Games",
 
@@ -1306,6 +1306,8 @@ export const mockGames: Game[] = [
   {
 
     id: "greensharks",
+
+    image: "/games/green-sharks.webp",
 
     titleEn: "Green Sharks Challenge",
 

@@ -442,6 +442,15 @@ export const GamesHub: React.FC = () => {
                     <span>{ar ? "تشغيل الفيديو" : "Watch Video"}</span>
                   </div>
                 </div>
+              ) : game.id === "greensharks" ? (
+                <div className="game-board-card-preview">
+                  <img
+                    src={game.image || "/games/green-sharks.webp"}
+                    alt={ar ? "تحدي Green Sharks للاستثمار الأخضر" : "Green Sharks Challenge — Pitch, Innovate, Compete for a Greener Future"}
+                    className="game-board-thumb"
+                    loading="lazy"
+                  />
+                </div>
               ) : (
                 <span className={`game-large-icon-wrapper ${colorClass}`} aria-hidden="true">
                   <Icon size={32} />
