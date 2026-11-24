@@ -1,0 +1,65 @@
+# ==========================================================
+# 🌱 Climatify Platform — robots.txt
+# https://climatify-youth.com
+# Official Climate Education & Youth Empowerment Social Enterprise
+# UAE Future 100 Winner (2023 - 2026)
+# ==========================================================
+
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /programs
+Allow: /portfolio
+Allow: /events
+Allow: /learning-hub
+Allow: /media
+Allow: /blog/
+Allow: /opportunities
+Allow: /games
+Allow: /portals
+Allow: /brand
+Allow: /contact
+Allow: /login
+Allow: /register
+Allow: /sitemap.xml
+Allow: /feed.xml
+Allow: /llms.txt
+Allow: /site.webmanifest
+
+# Disallow private admin CMS and personal member dashboards
+Disallow: /admin
+Disallow: /admin/
+Disallow: /admin/*
+Disallow: /dashboard
+Disallow: /dashboard/
+Disallow: /dashboard/*
+Disallow: /api/
+
+# Explicit Search & AI Discovery Crawler Rules
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Search Engine Sitemaps
+Sitemap: https://climatify-youth.com/sitemap.xml

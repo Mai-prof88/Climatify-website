@@ -1,0 +1,806 @@
+.learning-hub-page-container {
+  padding-bottom: var(--space-7);
+}
+
+.hub-header {
+  padding-top: var(--space-6);
+}
+
+/* الحالات الثلاث (تحميل / خطأ / فاضي) بتقعد في نفس المساحة بدل قسم فاضي */
+.hub-content-section {
+  min-height: 320px;
+}
+
+.courses-grid-list-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.course-card-item {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card-img-banner {
+  height: 220px;
+  position: relative;
+}
+
+.course-cover-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-badge-category {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: var(--gradient-brand);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 99px;
+  box-shadow: var(--shadow-sm);
+}
+
+[dir="rtl"] .course-badge-category {
+  left: auto;
+  right: 12px;
+}
+
+.course-card-body-details {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+}
+
+.course-card-body-details h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.course-card-body-details .excerpt {
+  color: var(--text-2);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.course-meta-data-badges {
+  display: flex;
+  gap: 16px;
+  color: var(--text-3);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.course-meta-data-badges span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.start-course-btn {
+  width: 100%;
+  justify-content: center;
+}
+
+/* Active Course Panel */
+.active-course-study-panel {
+  padding: 32px;
+}
+
+.back-to-list-btn {
+  margin-bottom: 24px;
+}
+
+.active-course-header-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 32px;
+}
+
+.active-course-thumbnail-wrapper {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  max-height: 280px;
+}
+
+.active-course-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.active-course-main-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.course-category-tag {
+  background: var(--gradient-brand-soft);
+  color: var(--green-700);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 99px;
+}
+
+[data-theme="dark"] .course-category-tag {
+  color: var(--green-300);
+}
+
+.instructor-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-2);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.course-stats-badges-row {
+  display: flex;
+  gap: 20px;
+  color: var(--text-3);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.course-stats-badges-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.active-course-main-details .full-description {
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* Simulated Lessons */
+.lessons-simulator-list-box {
+  width: 100%;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lessons-simulator-list-box h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.lesson-item-simulated {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.lessons-box-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lessons-progress-summary {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-2);
+}
+
+/* .btn-sm مش متعرّف في global.css، فأزرار الدروس كانت بتطلع بحجم كامل.
+   القائمة بقت بتعرض عدد الدروس الحقيقي (12 مثلاً) فلازم تكون مضغوطة. */
+.lesson-item-simulated .btn {
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.lesson-status-completed {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--green);
+  flex-shrink: 0;
+}
+
+.lesson-item-simulated.lock-state {
+  opacity: 0.6;
+  background: var(--surface-2);
+}
+
+.lock-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-3);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.progress-badge {
+  color: var(--green-700);
+  font-weight: 800;
+}
+
+[data-theme="dark"] .progress-badge {
+  color: var(--green-300);
+}
+
+.view-certificate-btn {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ==========================================
+   CERTIFICATE DIALOG
+   الكلاسات دي مكانت متعرّفة في أي ستايل شيت في المشروع، فالـ "modal"
+   كان بيتعرض كبلوك عادي جوه الصفحة. مستخدَمة في هذه الصفحة فقط.
+   ========================================== */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  /* لازم تعلى على الهيدر (99990) وشريط الموبايل والشات (99996) */
+  z-index: var(--z-dialog, 100000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: rgba(18, 33, 51, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  overflow-y: auto;
+  animation: certOverlayIn 0.2s var(--ease) both;
+}
+
+[data-theme="dark"] .modal-overlay {
+  background: rgba(7, 13, 23, 0.7);
+}
+
+.modal-content {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  max-height: calc(100vh - var(--space-6));
+  max-height: calc(100dvh - var(--space-6));
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-5);
+  animation: certPanelIn 0.24s var(--ease) both;
+}
+
+/* الحوار نفسه ما يتحركش عند الـ hover زي الكروت العادية */
+.modal-content.card:hover {
+  transform: none;
+  box-shadow: var(--shadow-lg);
+}
+
+.modal-content:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+.certificate-modal {
+  max-width: 680px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.modal-title svg {
+  color: var(--green);
+  flex-shrink: 0;
+}
+
+.btn-close {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-2);
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.btn-close:hover {
+  color: var(--text);
+  border-color: var(--border-interactive);
+}
+
+.btn-close:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--border);
+}
+
+/* ورقة الشهادة */
+.certificate-paper-body {
+  border: 3px double var(--green);
+  padding: 32px 24px;
+  border-radius: 12px;
+  background: var(--surface-2);
+  margin: 20px 0;
+}
+
+.certificate-seal {
+  color: var(--green);
+  margin: 0 auto 12px;
+}
+
+.certificate-heading {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 8px 0;
+  color: var(--text);
+}
+
+.certificate-preamble {
+  color: var(--text-2);
+  font-size: 0.9rem;
+}
+
+.certificate-recipient {
+  color: var(--green-700);
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+[data-theme="dark"] .certificate-recipient {
+  color: var(--green-300);
+}
+
+.certificate-statement {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.certificate-meta-row {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-2);
+}
+
+@keyframes certOverlayIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes certPanelIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-overlay,
+  .modal-content {
+    animation: none;
+  }
+
+  .course-card-item,
+  .course-card-item:hover,
+  .btn-close {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+  .courses-grid-list-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .active-course-header-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .lesson-item-simulated {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .certificate-paper-body {
+    padding: 24px 16px;
+  }
+
+  .modal-actions {
+    flex-direction: column-reverse;
+  }
+
+  .modal-actions .btn {
+    width: 100%;
+  }
+}
+
+/* ============================================================
+   SESSION RECORD BANNER & VIDEO PLAYER STYLES (2027 REDESIGN)
+   ============================================================ */
+
+.session-record-banner {
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, rgba(0, 192, 145, 0.08) 0%, rgba(30, 58, 138, 0.08) 100%);
+  border: 1px solid rgba(0, 192, 145, 0.25);
+  border-radius: var(--radius-xl, 20px);
+  padding: clamp(24px, 3.5vw, 40px);
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 32px;
+  align-items: center;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="dark"] .session-record-banner {
+  background: linear-gradient(135deg, rgba(0, 192, 145, 0.12) 0%, rgba(17, 26, 46, 0.8) 100%);
+  border-color: rgba(0, 192, 145, 0.35);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 860px) {
+  .session-record-banner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.session-record-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 99px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: rgba(0, 192, 145, 0.15);
+  color: #008765;
+  border: 1px solid rgba(0, 192, 145, 0.3);
+  margin-bottom: 14px;
+}
+
+[data-theme="dark"] .session-record-badge {
+  color: #00c091;
+  background: rgba(0, 192, 145, 0.2);
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ef4444;
+  animation: pulseDot 2s infinite ease-in-out;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.3); }
+}
+
+.session-record-left h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  font-weight: 800;
+  line-height: 1.35;
+  margin-bottom: 12px;
+  color: var(--text, #0f172a);
+}
+
+.session-record-left p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-muted, #64748b);
+  margin-bottom: 20px;
+}
+
+.session-record-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.session-meta-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 6px;
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, rgba(0, 0, 0, 0.1));
+  color: var(--text, #1e293b);
+}
+
+[data-theme="dark"] .session-meta-pill {
+  background: #111a2e;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+}
+
+.session-watch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 99px;
+  box-shadow: 0 6px 18px rgba(0, 192, 145, 0.35);
+}
+
+.session-record-right {
+  cursor: pointer;
+}
+
+.session-video-preview-wrapper {
+  position: relative;
+  border-radius: var(--radius-lg, 16px);
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  aspect-ratio: 16 / 10;
+}
+
+.session-preview-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.session-record-right:hover .session-preview-thumb {
+  transform: scale(1.05);
+}
+
+.session-play-pulse-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #00c091;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 10px rgba(0, 192, 145, 0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.session-record-right:hover .session-play-pulse-btn {
+  transform: translate(-50%, -50%) scale(1.12);
+  box-shadow: 0 0 0 16px rgba(0, 192, 145, 0.45);
+}
+
+.session-preview-time {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* Course Partner Affiliation Pill */
+.course-partner-affiliation-pill {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0f172a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .course-partner-affiliation-pill {
+  background: rgba(17, 26, 46, 0.95);
+  color: #f1f5f9;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.course-partner-mini-logo {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+/* Video Player Modal */
+.video-player-overlay {
+  z-index: 10000;
+}
+
+.video-player-modal {
+  max-width: 800px;
+  width: 95%;
+  border-radius: var(--radius-xl, 20px);
+  overflow: hidden;
+  padding: 0;
+  background: #0b1422;
+  color: #ffffff;
+}
+
+.video-player-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  background: #111a2e;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.video-player-title-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.video-icon-accent {
+  color: #00c091;
+}
+
+.video-player-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #00c091;
+  text-transform: uppercase;
+  display: block;
+}
+
+.video-player-title-box h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.close-video-btn {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.session-record-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.session-drive-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border-radius: var(--radius-md, 12px);
+}
+
+.close-video-btn:hover {
+  color: #ffffff;
+}
+
+.video-screen-container {
+  position: relative;
+  width: 100%;
+  background: #000000;
+  aspect-ratio: 16 / 9;
+}
+
+.session-video-tag,
+.session-video-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.video-player-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+  background: #111a2e;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.video-player-footer p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  line-height: 1.5;
+  flex: 1;
+  min-width: 250px;
+}
+
+.video-player-footer-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.video-player-footer-actions .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  padding: 6px 14px;
+}
+

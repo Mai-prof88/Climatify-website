@@ -1,0 +1,71 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment / secrets
+# .env بيحتوي إعدادات محلية (وممكن مفاتيح) — ما يترفعش على git.
+# .env.example هو النسخة المتتبّعة والوحيدة اللي بتتشارك.
+.env
+.env.*.local
+
+# Local archives / tool state (must not be committed)
+Climatify.zip
+*Portfolio2025.pdf
+.EG-MCP/
+.chrome-flow/
+.chrome-snap/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python & Backend
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+instance/
+backend/climatify.db
+climatify.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Supabase CLI local state
+supabase/.env
+supabase/.branches
+supabase/.temp
+
+# Legacy Flask Alembic migrations (Supabase uses /supabase/migrations/)
+/migrations/
+
+# Vercel local state
+.vercel
+
+# Local tooling & MCP
+.KHEDR-MCP/
+.claude/
+.agents/

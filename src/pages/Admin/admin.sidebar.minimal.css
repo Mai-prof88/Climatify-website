@@ -1,0 +1,41 @@
+/* Minimal modern admin sidebar — overrides for admin.css */
+.admin-layout { --adm-sidebar-w: 248px; --adm-topbar-h: 56px; }
+
+.admin-sidebar {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border-inline-end: 1px solid var(--border);
+  box-shadow: none;
+}
+.admin-sidebar::after { display: none; }
+
+.admin-sidebar-brand { padding: 18px 16px 14px; gap: 10px; border-bottom: 1px solid var(--border); }
+.admin-sidebar-brand img { width: 32px; height: 32px; }
+.admin-sidebar-brand-text { font-size: 0.98rem; font-weight: 800; color: var(--text); }
+.admin-sidebar-badge { background: var(--green); color: #fff; font-size: 0.58rem; padding: 2px 6px; }
+
+.admin-nav-section-label { color: var(--text-3); font-size: 0.62rem; letter-spacing: 0.12em; padding: 12px 14px 6px; }
+
+.admin-nav-btn { padding: 8px 10px; border-radius: 10px; font-size: 0.86rem; font-weight: 600; color: var(--text-2); border: 1px solid transparent; gap: 10px; }
+.admin-nav-btn:hover { background: var(--surface-2); color: var(--text); border-color: transparent; }
+.admin-nav-icon { width: 28px; height: 28px; border-radius: 8px; background: var(--surface-2); color: var(--text-2); font-size: 0.85rem; }
+.admin-nav-btn.active { background: rgba(0,192,145,0.10); color: var(--green); border-color: rgba(0,192,145,0.18); }
+.admin-nav-btn.active .admin-nav-icon { background: var(--green); color: #fff; box-shadow: none; }
+.admin-nav-badge { background: var(--danger); color: #fff; font-size: 0.68rem; min-width: 18px; padding: 1px 6px; }
+
+.admin-sidebar-footer { border-top: 1px solid var(--border); padding: 12px; background: transparent; }
+.admin-sidebar-user { background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 8px 10px; }
+.admin-sidebar-avatar { width: 32px; height: 32px; border-radius: 8px; background: var(--text); color: var(--surface); }
+.admin-sidebar-user-name { font-size: 0.82rem; font-weight: 700; color: var(--text); }
+.admin-sidebar-user-role { font-size: 0.70rem; color: var(--text-3); }
+
+.admin-topbar { background: var(--surface) !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; border-bottom: 1px solid var(--border); min-height: var(--adm-topbar-h); }
+.admin-topbar-title { font-size: 1.05rem; font-weight: 800; }
+.admin-topbar-crumb { color: var(--text-3); font-size: 0.62rem; }
+.admin-topbar-btn, .admin-mobile-toggle, .admin-lang-toggle { border-color: var(--border); }
+
+/* Keep topbar minimal */
+.admin-topbar-right { gap: 8px; }
+.admin-logout-btn { height: 36px; border-radius: 10px; }
+
+[data-theme="dark"] .admin-sidebar { background: var(--surface) !important; color: var(--text) !important; border-inline-end-color: var(--border); }

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ============================================== -->
+  <!-- 🌍 Core Public Platform Pages (12 Routes) -->
+  <!-- ============================================== -->
+  <url>
+    <loc>https://climatify-youth.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/clipboard-image-1784502037.webp</image:loc>
+      <image:title>Climatify — Climate Action Digitized | UAE Future 100 Winner</image:title>
+      <image:caption>Climatify is an award-winning UAE climate education and youth empowerment social enterprise founded in 2023 in Dubai.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/portfolio</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/portfolio" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/portfolio" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/portfolio" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/portfolio/page-01.webp</image:loc>
+      <image:title>Climatify Technology &amp; Impact Portfolio 2025</image:title>
+      <image:caption>53 Interactive Showcase Slides of Climatify Climate Action Milestones and Partnerships</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/about" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/future-100-recognition.jpg</image:loc>
+      <image:title>Climatify Leadership &amp; UAE Future 100 Recognition</image:title>
+      <image:caption>Climatify Co-Founders and Leadership Team driving youth climate empowerment across MENA</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/programs</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/programs" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/programs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/programs" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/ambassadors/shift-internship-poster.webp</image:loc>
+      <image:title>Climatify SHIFT Program &amp; Climate Initiatives</image:title>
+      <image:caption>Regional youth capacity building, climate hackathons, and interactive sustainability programs</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/events</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/events" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/events" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/events" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-ice-2024-hackathon-projectset.jpg</image:loc>
+      <image:title>Climatify Climate Events, Summits and Hackathons</image:title>
+      <image:caption>COP28, COP29, Youth Climate Mobility Forum, and regional sustainability hackathons</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/learning-hub</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/learning-hub" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/learning-hub" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/learning-hub" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/brand/climatify-what-is.png</image:loc>
+      <image:title>Climatify Academy &amp; Certified Climate Courses</image:title>
+      <image:caption>Interactive courses and workshops delivered with Zayed University, Khalifa University, Heliopolis University, and ENOC</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/media</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/media" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/media" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/media" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/partnerships/mou-heliopolis-ceremony.jpg</image:loc>
+      <image:title>Climatify Media Center, News &amp; Annual Sustainability Reports</image:title>
+      <image:caption>Official press releases, strategic MoUs, COP28 &amp; COP29 coverage, and Future 100 milestones</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/opportunities</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/opportunities" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/opportunities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/opportunities" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/ambassadors/shift-ambassadors-2026.webp</image:loc>
+      <image:title>Youth Climate Opportunities, Internships, Fellowships &amp; Green Careers</image:title>
+      <image:caption>Apply for internships, volunteering, and explore green career pathways in the UAE and MENA</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/games</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/games" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/games" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/games" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/clipboard-image-1784502037.webp</image:loc>
+      <image:title>AgriClash Climate Game, GreenSharks &amp; Carbon Footprint Calculator</image:title>
+      <image:caption>Interactive educational climate games and personal carbon footprint simulator by Climatify</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/portals</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/portals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/portals" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/portals" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/brand/future-100-badge.png</image:loc>
+      <image:title>Climatify Institutional, Corporate &amp; University Partnerships Portal</image:title>
+      <image:caption>Partner with Climatify or request interactive climate workshops for schools and universities</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/brand</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/brand" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/brand" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/brand" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/brand/future-100-2024.png</image:loc>
+      <image:title>Climatify Official Brand Guidelines &amp; Media Kit</image:title>
+      <image:caption>Official Climatify logos, typography, color palette, and media kit assets</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/contact" />
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/logo-dark.png</image:loc>
+      <image:title>Contact Climatify Team in Dubai, United Arab Emirates</image:title>
+      <image:caption>Reach out to Climatify or book a direct consultation meeting with our team</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================== -->
+  <!-- 📰 Official Climatify News & Articles (27 Posts) -->
+  <!-- ============================================== -->
+  <url>
+    <loc>https://climatify-youth.com/blog/uae-future-100-recognition</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/uae-future-100-recognition" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/uae-future-100-recognition" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/uae-future-100-recognition" />
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/future-100-recognition.jpg</image:loc>
+      <image:title>Climatify Recognized Among the UAE’s Future 100 Companies Shaping the Future Economy</image:title>
+      <image:caption>Climatify has been officially recognized among the UAE’s Future 100, a national initiative by the UAE Ministry of Economy and Tourism celebrating 100 emerging companies shaping the future economy.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/heliopolis-mou-signing</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/heliopolis-mou-signing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/heliopolis-mou-signing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/heliopolis-mou-signing" />
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/partnerships/mou-heliopolis-ceremony.jpg</image:loc>
+      <image:title>Climatify and Heliopolis University Sign Strategic MoU to Advance Climate Education and Youth Empowerment</image:title>
+      <image:caption>Climatify and Heliopolis University formalized a strategic partnership through an MoU during the Scientific Conference at Sustainability Week in September 2026.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-bridge-to-eu-opportunities</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-bridge-to-eu-opportunities" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-bridge-to-eu-opportunities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-bridge-to-eu-opportunities" />
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-bridge-to-eu-opportunities.jpg</image:loc>
+      <image:title>Climatify Connects Young People with European Opportunities Through “Bridge to EU Opportunities” at Heliopolis University Sustainability Week</image:title>
+      <image:caption>Climatify organized “Bridge to EU Opportunities” at Heliopolis University Sustainability Week, connecting youth with European networks, climate finance, Erasmus+, and international career pathways with EU Jeel Connect.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-shift-first-cohort-graduation</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-shift-first-cohort-graduation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-shift-first-cohort-graduation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-shift-first-cohort-graduation" />
+    <lastmod>2026-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-shift-first-cohort-graduation.jpg</image:loc>
+      <image:title>Climatify Celebrates the Graduation of SHIFT’s First Cohort, Advancing Youth Leadership and Climate Innovation</image:title>
+      <image:caption>Climatify celebrated the graduation of SHIFT’s first cohort of 60 emerging leaders from 5 countries, showcasing the AgriClash game and youth climate innovation.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/shift-program-2025</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/shift-program-2025" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/shift-program-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/shift-program-2025" />
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/ambassadors/shift-ambassadors-2026.webp</image:loc>
+      <image:title>SHiFT Program – Youth Capacity Building &amp; Leadership 2025</image:title>
+      <image:caption>SHiFT is a youth capacity-building and professional development program led by Climatify, bridging academic knowledge and practical experience.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/heba-momtaz-arab-youth-pioneers</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/heba-momtaz-arab-youth-pioneers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/heba-momtaz-arab-youth-pioneers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/heba-momtaz-arab-youth-pioneers" />
+    <lastmod>2025-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/heba-momtaz-arab-youth-pioneers.jpg</image:loc>
+      <image:title>Climatify Co-Founder Heba Momtaz Recognized Among Arab Youth Pioneers in Sustainability and Environmental Action</image:title>
+      <image:caption>Climatify proudly announces the selection of Heba Momtaz, Co-Founder and Director of Community Development, among the Arab Youth Pioneers in Sustainability and Environmental Action.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/forbes-sustainability-summit</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/forbes-sustainability-summit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/forbes-sustainability-summit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/forbes-sustainability-summit" />
+    <lastmod>2025-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/forbes-middle-east-sustainability-summit.jpg</image:loc>
+      <image:title>Climatify at the Forbes Middle East Sustainability Leaders Summit 2025</image:title>
+      <image:caption>Climatify participated in the Forbes Middle East Sustainability Leaders Summit 2025, represented by Co-Founders Dr. Marwa Shalwani and Mai Moawad.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/marwa-shalwani-iucn-changemakers</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/marwa-shalwani-iucn-changemakers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/marwa-shalwani-iucn-changemakers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/marwa-shalwani-iucn-changemakers" />
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/marwa-shalwani-iucn-changemakers.png</image:loc>
+      <image:title>Climatify Co-Founder Selected Among UAE Changemakers at the IUCN World Conservation Congress 2025</image:title>
+      <image:caption>Climatify proudly announces the selection of Dr. Marwa Al-Shalwani among the UAE Changemakers participating in the IUCN World Conservation Congress 2025 in Abu Dhabi.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/youth-climate-mobility-forum-2025</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/youth-climate-mobility-forum-2025" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/youth-climate-mobility-forum-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/youth-climate-mobility-forum-2025" />
+    <lastmod>2025-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/youth-climate-mobility-forum-2025.jpg</image:loc>
+      <image:title>Climatify Participates in the Youth Climate Mobility Innovation Forum and Hackathon 2025</image:title>
+      <image:caption>Climatify participated in the Youth Climate Mobility Innovation Forum and Hackathon 2025 in Cairo, organized by the IOM, YOUNGO, Green Space Iraq, and PolicyTabs.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/egyptian-water-youth-dialogue-2025</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/egyptian-water-youth-dialogue-2025" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/egyptian-water-youth-dialogue-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/egyptian-water-youth-dialogue-2025" />
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/egyptian-water-youth-dialogue-2025.jpg</image:loc>
+      <image:title>Climatify Participates in the Egyptian Water Youth Dialogue to Advance Water Security and Climate Resilience</image:title>
+      <image:caption>Climatify participated as a partner in the Egyptian Water Youth Dialogue in Alexandria, bringing together over 50 young leaders to strengthen engagement in water security.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/beeah-future-pioneers-award-2025</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/beeah-future-pioneers-award-2025" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/beeah-future-pioneers-award-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/beeah-future-pioneers-award-2025" />
+    <lastmod>2025-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/beeah-future-pioneers-award-2025.jpg</image:loc>
+      <image:title>Climatify Participates in the Future Pioneers Award by BEEAH Group</image:title>
+      <image:caption>Climatify participated in the Future Pioneers Award by BEEAH Group under the patronage of H.E. Sheikha Bodour bint Sultan Al Qasimi in Sharjah.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/world-utilities-congress-2025</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/world-utilities-congress-2025" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/world-utilities-congress-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/world-utilities-congress-2025" />
+    <lastmod>2025-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/world-utilities-congress-2025.jpg</image:loc>
+      <image:title>Climatify Participates in the Youth Energy Forum at the World Utilities Congress 2025</image:title>
+      <image:caption>Climatify participated in the Youth Energy Forum at the World Utilities Congress 2025, organized by the TAQA Group Youth Council in Abu Dhabi.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-rise-aus-2025</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-rise-aus-2025" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-rise-aus-2025" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-rise-aus-2025" />
+    <lastmod>2025-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-rise-aus-2025.jpg</image:loc>
+      <image:title>Climatify Participates in RISE 2025 at the American University of Sharjah</image:title>
+      <image:caption>Climatify participated in RISE 2025 at American University of Sharjah, engaging with university students and emerging innovators in climate entrepreneurship.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-uaeu-sustainable-universe-mai-moawad</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-uaeu-sustainable-universe-mai-moawad" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-uaeu-sustainable-universe-mai-moawad" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-uaeu-sustainable-universe-mai-moawad" />
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-uaeu-sustainable-universe-mai-moawad.jpg</image:loc>
+      <image:title>Climatify CEO Highlights Youth Leadership, Climate Policy, and Green Entrepreneurship at UAEU’s Sustainable Universe Event</image:title>
+      <image:caption>Climatify CEO Mai Moawad delivered a keynote on youth and women leadership in climate innovation, policy, and green entrepreneurship at UAEU’s Sustainable Universe Event.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-cop29-baku-agricultural-innovation-panel</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-cop29-baku-agricultural-innovation-panel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-cop29-baku-agricultural-innovation-panel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-cop29-baku-agricultural-innovation-panel" />
+    <lastmod>2024-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-cop29-baku-agricultural-innovation-panel.jpg</image:loc>
+      <image:title>Climatify Hosts COP29 Panel on UAE Youth Leadership, Agricultural Innovation, and Climate-Affected Communities</image:title>
+      <image:caption>At COP29 in Baku, Climatify organized an international panel on agricultural innovation, youth leadership, and supporting climate-affected communities.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-azerbaijan-leadership-diplomacy-conference-2024</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-azerbaijan-leadership-diplomacy-conference-2024" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-azerbaijan-leadership-diplomacy-conference-2024" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-azerbaijan-leadership-diplomacy-conference-2024" />
+    <lastmod>2024-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-azerbaijan-leadership-diplomacy-conference-2024.jpg</image:loc>
+      <image:title>Climatify Represents the UAE at the International Leadership and Diplomacy Conference in Azerbaijan</image:title>
+      <image:caption>Dr. Marwa Shalwani represented the UAE and Climatify at the International Leadership and Diplomacy Conference in Shusha, Azerbaijan, ahead of COP29.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-ice-2024-ai-in-healthcare</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-ice-2024-ai-in-healthcare" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-ice-2024-ai-in-healthcare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-ice-2024-ai-in-healthcare" />
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-ice-2024-ai-in-healthcare.jpg</image:loc>
+      <image:title>Climatify Contributes to AI in Healthcare Panel Discussion at ICE 2024</image:title>
+      <image:caption>Climatify participated in ICE 2024, contributing to a panel discussion on AI in Healthcare led by Dr. Marwa Shalwani and Chris Monovich on digital transformation and sustainable health.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-ice-2024-hackathon-projectset</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-ice-2024-hackathon-projectset" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-ice-2024-hackathon-projectset" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-ice-2024-hackathon-projectset" />
+    <lastmod>2024-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-ice-2024-hackathon-projectset.jpg</image:loc>
+      <image:title>Climatify Joins ICE 2024 Hackathon as Sustainability Partner in Collaboration with ProjectSet</image:title>
+      <image:caption>Climatify announced its partnership with ProjectSet as Sustainability Partner of ICE 2024 Hackathon, supporting international youth innovation in sustainability.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-wavemakers-united-strategic-partnership</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-wavemakers-united-strategic-partnership" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-wavemakers-united-strategic-partnership" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-wavemakers-united-strategic-partnership" />
+    <lastmod>2024-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-wavemakers-united-strategic-partnership.png</image:loc>
+      <image:title>Climatify Announces Strategic Partnership with Wavemakers United to Advance Youth Empowerment and Environmental Sustainability</image:title>
+      <image:caption>Climatify announced a strategic partnership with Wavemakers United to advance youth empowerment and sustainability across water, food, and energy security.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-al-athaab-strategic-collaboration</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-al-athaab-strategic-collaboration" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-al-athaab-strategic-collaboration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-al-athaab-strategic-collaboration" />
+    <lastmod>2024-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-al-athaab-strategic-collaboration.png</image:loc>
+      <image:title>Climatify Announces Strategic Collaboration with Al Athaab to Advance Sustainability, Environmental Safety, and Youth Empowerment</image:title>
+      <image:caption>Climatify announced a strategic collaboration with Al Athaab, combining expertise in environmental solutions, safety systems, climate education, and youth empowerment.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-climate-in-arabic-partnership</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-climate-in-arabic-partnership" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-climate-in-arabic-partnership" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-climate-in-arabic-partnership" />
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-climate-in-arabic-partnership.png</image:loc>
+      <image:title>Climatify Announces Strategic Partnership with Climate in Arabic to Advance Climate Awareness and Empower Arab Youth</image:title>
+      <image:caption>Climatify announced a strategic partnership with Climate in Arabic to advance climate awareness, Arabic environmental communication, and youth empowerment.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-zayed-university-uae-environment-day-2024</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-zayed-university-uae-environment-day-2024" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-zayed-university-uae-environment-day-2024" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-zayed-university-uae-environment-day-2024" />
+    <lastmod>2024-02-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-zayed-university-uae-environment-day-2024.jpg</image:loc>
+      <image:title>Climatify Participates in UAE Environment Day at Zayed University, Advancing Youth Engagement in Sustainability</image:title>
+      <image:caption>Climatify participated in UAE Environment Day at Zayed University, Dubai, with Co-Founder Shaikha Al Shafar joining a panel on local product sustainability.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/arab-youth-climate-newsletter-2024</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/arab-youth-climate-newsletter-2024" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/arab-youth-climate-newsletter-2024" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/arab-youth-climate-newsletter-2024" />
+    <lastmod>2024-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/arab-youth-climate-action-newsletter-2024.jpg</image:loc>
+      <image:title>Climatify Featured in the Arab Youth Council for Climate Action Network Newsletter</image:title>
+      <image:caption>Climatify was featured in the Arab Youth Council for Climate Action Network Newsletter, highlighting its 2023 contributions to youth climate action.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-cop28-coy18-dubai</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-cop28-coy18-dubai" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-cop28-coy18-dubai" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-cop28-coy18-dubai" />
+    <lastmod>2023-12-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-cop28-coy18-dubai.jpg</image:loc>
+      <image:title>Climatify Participates in COP28 and COY18 to Strengthen Global Youth Climate Engagement</image:title>
+      <image:caption>Climatify participated in COP28 and COY18 in Dubai, engaging with international youth networks and climate organizations to advance global youth climate action.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/shaikha-alshafar-emiratesgbc-cop28</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/shaikha-alshafar-emiratesgbc-cop28" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/shaikha-alshafar-emiratesgbc-cop28" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/shaikha-alshafar-emiratesgbc-cop28" />
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/shaikha-alshafar-emiratesgbc-cop28.png</image:loc>
+      <image:title>Climatify Co-Founder Shaikha Al Shafar Participates in Emirates Green Building Council Panel Discussion at COP28</image:title>
+      <image:caption>Shaikha Al Shafar participated in an EmiratesGBC panel discussion during COP28 on youth perspectives in green building and sustainable built environments.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/marwa-shalwani-uae-youth-challenge</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/marwa-shalwani-uae-youth-challenge" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/marwa-shalwani-uae-youth-challenge" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/marwa-shalwani-uae-youth-challenge" />
+    <lastmod>2023-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/marwa-shalwani-uae-youth-challenge-schneider.jpg</image:loc>
+      <image:title>Climatify’s Dr. Marwa Shalwani Serves as Jury Member for the UAE Youth Challenge in Collaboration with the Arab Youth Center and Schneider Electric</image:title>
+      <image:caption>Dr. Marwa Shalwani served as a jury member in the UAE Youth Challenge with the Arab Youth Center and Schneider Electric, supporting youth-led climate solutions.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://climatify-youth.com/blog/climatify-cop28-sme-climate-hub-mena</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://climatify-youth.com/blog/climatify-cop28-sme-climate-hub-mena" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://climatify-youth.com/blog/climatify-cop28-sme-climate-hub-mena" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/blog/climatify-cop28-sme-climate-hub-mena" />
+    <lastmod>2023-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://climatify-youth.com/climatify-cop28-sme-climate-hub-mena.png</image:loc>
+      <image:title>Climatify Joins the COP28 SME Climate Hub for the Middle East and North Africa</image:title>
+      <image:caption>Climatify joined the SME Climate Hub for MENA, a regional initiative associated with the COP28 UAE Presidency to support low-carbon business transition.</image:caption>
+    </image:image>
+  </url>
+</urlset>

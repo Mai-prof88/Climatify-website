@@ -1,0 +1,252 @@
+<!doctype html>
+<!-- الافتراضي عربي / RTL لأن الجمهور الأساسي عربي — والسكربت أدناه يصحّحه قبل أول رسم -->
+<html lang="ar" dir="rtl" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      يجب أن ينفّذ هذا السكربت قبل أول رسم للصفحة.
+      بدونه كان الـ HTML يبدأ بـ lang="en" بلا dir ثم يصححه React في تأثير
+      بعد الرسم، فيرى المستخدم انقلاب التخطيط بالكامل في كل تحميل بارد.
+      كل شيء داخل try/catch لأن localStorage محجوب في وضع Safari الخاص.
+    -->
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var lang = "ar";
+        var theme = null;
+        try {
+          var storedLang = localStorage.getItem("climatify-lang");
+          if (storedLang === "en" || storedLang === "ar") lang = storedLang;
+          var storedTheme = localStorage.getItem("climatify-theme");
+          if (storedTheme === "light" || storedTheme === "dark") theme = storedTheme;
+        } catch (e) {
+          /* التخزين محجوب — نكمل بالقيم الافتراضية */
+        }
+        if (!theme) {
+          try {
+            theme =
+              window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "dark"
+                : "light";
+          } catch (e) {
+            theme = "light";
+          }
+        }
+        root.setAttribute("lang", lang);
+        root.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
+        root.setAttribute("data-theme", theme);
+
+        // نفس القيم اللي في ThemeContext (THEME_COLORS) — من غير التحديث ده
+        // شريط المتصفح على الموبايل بيفضل بلون فاتح حتى بعد تشغيل React.
+        var themeColorMeta = document.getElementById("theme-color-meta");
+        if (themeColorMeta) {
+          themeColorMeta.setAttribute("content", theme === "dark" ? "#0A1018" : "#F7FAFC");
+        }
+      })();
+    </script>
+
+    <title>Climatify — من الشباب إلى الشباب | From Youth to Youth</title>
+    <meta
+      name="description"
+      content="كلايمتيفاي شركة ناشئة إماراتية تجمع بين الرقمنة المناخية وتمكين المجتمعات — نوحّد الجهود ونبتكر الحلول ونتحرك من أجل مستقبل أكثر استدامة. Climatify is a UAE-based startup uniting climate digitization with community empowerment — from youth to youth."
+    />
+    <meta name="author" content="Climatify" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="alternate" type="application/rss+xml" title="Climatify Climate News &amp; Updates" href="https://climatify-youth.com/feed.xml" />
+    <link rel="canonical" href="https://climatify-youth.com/" />
+    <link rel="alternate" hreflang="ar" href="https://climatify-youth.com/" />
+    <link rel="alternate" hreflang="en" href="https://climatify-youth.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://climatify-youth.com/" />
+
+    <!-- لون شريط المتصفح — يُحدّثه ThemeContext ليطابق المظهر المختار فعلاً -->
+    <meta name="theme-color" id="theme-color-meta" content="#F7FAFC" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Preload above-the-fold LCP Hero Poster -->
+    <link
+      rel="preload"
+      as="image"
+      href="/clipboard-image-1784502037.webp"
+      type="image/webp"
+      fetchpriority="high"
+    />
+
+    <!-- Parallel font stylesheet loading (eliminates CSS @import waterfall) -->
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Climatify" />
+    <meta property="og:locale" content="ar_AE" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:title" content="Climatify — من الشباب إلى الشباب" />
+    <meta
+      property="og:description"
+      content="شركة ناشئة إماراتية تجمع بين الرقمنة المناخية وتمكين المجتمعات — نوحّد جهود العمل المناخي من الشباب إلى الشباب."
+    />
+    <!-- og:image لا يقبل مساراً نسبياً — النطاق مُستنتج من info@climatify-youth.com فأكّده -->
+    <meta property="og:image" content="https://climatify-youth.com/clipboard-image-1784502037.webp" />
+    <meta property="og:image:alt" content="Climatify — Climate action, digitized" />
+
+    <meta
+      name="keywords"
+      content="كلايمتفاي, Climatify, التعليم المناخي, تمكين الشباب, Future 100 UAE, الاستدامة الإمارات, دبي, ريادة الأعمال الخضراء, برنامج SHIFT, AgriClash, COP28, COP29, Climate Education UAE, Climate Action Digitized"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="geo.region" content="AE-DU" />
+    <meta name="geo.placename" content="Dubai, United Arab Emirates" />
+    <meta name="geo.position" content="25.2048;55.2708" />
+    <meta name="ICBM" content="25.2048, 55.2708" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Climatify — من الشباب إلى الشباب | Future 100 UAE Winner" />
+    <meta
+      name="twitter:description"
+      content="شركة ناشئة إماراتية تجمع بين الرقمنة المناخية وتمكين المجتمعات — نوحّد جهود العمل المناخي من الشباب إلى الشباب."
+    />
+    <meta name="twitter:image" content="https://climatify-youth.com/future-100-recognition.jpg" />
+
+    <!-- Schema.org Official Structured Data (Organization, WebSite & SiteNavigationElement) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": ["Organization", "EducationalOrganization"],
+            "@id": "https://climatify-youth.com/#organization",
+            "name": "Climatify",
+            "alternateName": ["كلايمتفاي", "كلايمتيفاي", "Climatify Youth", "Climatify UAE"],
+            "slogan": "From Youth to Youth | من الشباب إلى الشباب",
+            "url": "https://climatify-youth.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://climatify-youth.com/logo-dark.png",
+              "width": "512",
+              "height": "512"
+            },
+            "image": "https://climatify-youth.com/future-100-recognition.jpg",
+            "description": "Climatify is an award-winning UAE climate education and youth empowerment social enterprise (founded in 2023, Future 100 winner) turning sustainability and climate challenges into practical, interactive learning experiences.",
+            "foundingDate": "2023",
+            "foundingLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Dubai",
+                "addressRegion": "Dubai",
+                "addressCountry": "AE"
+              }
+            },
+            "areaServed": [
+              { "@type": "Country", "name": "United Arab Emirates" },
+              { "@type": "Country", "name": "Egypt" },
+              { "@type": "Place", "name": "Middle East and North Africa (MENA)" }
+            ],
+            "knowsAbout": [
+              "Climate Education",
+              "Youth Empowerment",
+              "Sustainability",
+              "Climate Digitization",
+              "Circular Economy",
+              "Green Entrepreneurship",
+              "Environmental Gamification",
+              "Carbon Footprint Reduction"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer support & partnerships",
+              "email": "info@climatify-youth.com",
+              "url": "https://climatify-youth.com/contact",
+              "availableLanguage": ["Arabic", "English"]
+            },
+            "award": [
+              "Future 100 UAE Winner 2025 - UAE Ministry of Economy & Prime Minister's Office",
+              "BEEAH Future Pioneers Award Recognition 2025"
+            ],
+            "sameAs": [
+              "https://ae.linkedin.com/company/climatify-youth",
+              "https://mena.entrepreneur.com/entrepreneurs/future-100-2025-winner-climatify"
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Mai Moawad",
+                "jobTitle": "Co-Founder & CEO"
+              },
+              {
+                "@type": "Person",
+                "name": "Dr. Marwa Shalwani",
+                "jobTitle": "Co-Founder & Chief Strategy Officer"
+              },
+              {
+                "@type": "Person",
+                "name": "Abdullah Al-Salmany",
+                "jobTitle": "Co-Founder & Tech Lead"
+              },
+              {
+                "@type": "Person",
+                "name": "Heba Momtaz",
+                "jobTitle": "Co-Founder & Community Director"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://climatify-youth.com/#website",
+            "url": "https://climatify-youth.com",
+            "name": "Climatify — Climate Education & Youth Empowerment Platform",
+            "alternateName": "منصة كلايمتفاي للتعليم المناخي وتمكين الشباب",
+            "publisher": {
+              "@id": "https://climatify-youth.com/#organization"
+            },
+            "inLanguage": ["ar-AE", "en-US"],
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://climatify-youth.com/media?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://climatify-youth.com/#sitelinks",
+            "name": "Climatify Main Sections",
+            "itemListElement": [
+              { "@type": "SiteNavigationElement", "position": 1, "name": "Portfolio | بورتفوليو كلايمتفاي", "url": "https://climatify-youth.com/portfolio" },
+              { "@type": "SiteNavigationElement", "position": 2, "name": "About Climatify | من نحن", "url": "https://climatify-youth.com/about" },
+              { "@type": "SiteNavigationElement", "position": 3, "name": "Programs & Initiatives | البرامج والمبادرات", "url": "https://climatify-youth.com/programs" },
+              { "@type": "SiteNavigationElement", "position": 4, "name": "Events & Summits | الفعاليات والمؤتمرات", "url": "https://climatify-youth.com/events" },
+              { "@type": "SiteNavigationElement", "position": 5, "name": "Climatify Academy | أكاديمية التعلم المناخي", "url": "https://climatify-youth.com/learning-hub" },
+              { "@type": "SiteNavigationElement", "position": 6, "name": "Media Center & Reports | المركز الإعلامي والتقارير", "url": "https://climatify-youth.com/media" },
+              { "@type": "SiteNavigationElement", "position": 7, "name": "Opportunities & Green Careers | الفرص والمسارات المهنية", "url": "https://climatify-youth.com/opportunities" },
+              { "@type": "SiteNavigationElement", "position": 8, "name": "Climate Games & Carbon Calculator | ألعاب المناخ وحاسبة الكربون", "url": "https://climatify-youth.com/games" },
+              { "@type": "SiteNavigationElement", "position": 9, "name": "School & Partner Portals | بوابة الشركاء والمدارس", "url": "https://climatify-youth.com/portals" },
+              { "@type": "SiteNavigationElement", "position": 10, "name": "Contact & Book a Meeting | تواصل معنا", "url": "https://climatify-youth.com/contact" }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+/* ==========================================================
+   Logo Marquee Component — 2027 Minimal Modern Trust Strip
+   ========================================================== */
+
+.logo-marquee-section {
+  position: relative;
+  width: 100%;
+  padding-block: 44px 38px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+}
+
+[data-theme="dark"] .logo-marquee-section {
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+}
+
+.marquee-header-wrap {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.marquee-minimal-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+  user-select: none;
+}
+
+.marquee-pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 8px var(--green);
+  display: inline-block;
+}
+
+.marquee-outer-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Gradient edge fades for seamless blending into the page background */
+.marquee-edge-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: clamp(50px, 12vw, 160px);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.marquee-edge-fade.left {
+  left: 0;
+  background: linear-gradient(to right, var(--bg) 0%, transparent 100%);
+}
+
+.marquee-edge-fade.right {
+  right: 0;
+  background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
+}
+
+[data-theme="dark"] .marquee-edge-fade.left {
+  background: linear-gradient(to right, #040810 0%, transparent 100%);
+}
+
+[data-theme="dark"] .marquee-edge-fade.right {
+  background: linear-gradient(to left, #040810 0%, transparent 100%);
+}
+
+/* Infinite Marquee Track */
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  width: max-content;
+  will-change: transform;
+  animation: marquee-scroll linear infinite;
+  padding-block: 8px;
+}
+
+.marquee-outer-container:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* RTL natural reading direction */
+[dir="rtl"] .marquee-track {
+  animation-name: marquee-scroll-rtl;
+}
+
+@keyframes marquee-scroll-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+
+/* Clean Minimal Logo Item — Pure Logos, No Cluttered Cards */
+.marquee-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 68px;
+  min-width: 130px;
+  max-width: 240px;
+  padding: 6px 16px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.28s ease;
+  opacity: 0.9;
+}
+
+.marquee-logo-item:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.marquee-logo-img {
+  max-height: 52px;
+  height: auto;
+  width: auto;
+  max-width: 210px;
+  object-fit: contain;
+  transition: filter 0.28s ease, transform 0.28s ease;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.06));
+}
+
+[data-theme="dark"] .marquee-logo-img {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.45)) brightness(1.15);
+}
+
+.marquee-logo-item:hover .marquee-logo-img {
+  filter: drop-shadow(0 4px 14px rgba(0, 192, 145, 0.3)) brightness(1.05);
+}
+
+@media (max-width: 768px) {
+  .logo-marquee-section {
+    padding-block: 32px 28px;
+  }
+  .marquee-track {
+    gap: 40px;
+  }
+  .marquee-logo-item {
+    height: 50px;
+    min-width: 110px;
+    max-width: 160px;
+    padding: 4px 10px;
+  }
+  .marquee-logo-img {
+    max-height: 42px;
+    max-width: 140px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none !important;
+    overflow-x: auto;
+  }
+}
