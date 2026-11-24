@@ -64,7 +64,9 @@ export const AdminUsers: React.FC = () => {
     if (users.length === 0 && !loading && !storeError) {
       void loadAdminUsers();
     }
-  }, [users.length, loading, storeError, loadAdminUsers]);
+    // Load once on mount — prevents infinite reload loop when 0 users exist
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Derived metrics
   const totalCount = users.length;

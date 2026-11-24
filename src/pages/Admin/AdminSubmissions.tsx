@@ -47,7 +47,9 @@ export const AdminSubmissions: React.FC = () => {
     if (submissions.length === 0 && !loading && !storeError) {
       void loadAdminFormSubmissions();
     }
-  }, [submissions.length, loading, storeError, loadAdminFormSubmissions]);
+    // Load once on mount — prevents infinite reload loop when 0 submissions exist
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Derived counts
   const totalCount = submissions.length;

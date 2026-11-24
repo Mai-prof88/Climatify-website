@@ -48,7 +48,9 @@ export const AdminRegistrations: React.FC = () => {
     if (registrations.length === 0 && !loading && !storeError) {
       void loadAdminEventRegistrations();
     }
-  }, [registrations.length, loading, storeError, loadAdminEventRegistrations]);
+    // Load once on mount — prevents infinite reload loop when 0 registrations exist
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Derived metrics
   const totalCount = registrations.length;

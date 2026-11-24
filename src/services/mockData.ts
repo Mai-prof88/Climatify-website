@@ -1329,28 +1329,6 @@ export const mockGames: Game[] = [
 
   {
 
-    id: "carbon-footprint",
-
-    titleEn: "Carbon Footprint Simulator",
-
-    titleAr: "محاكي البصمة الكربونية الشخصية",
-
-    descriptionEn: "Calculate your daily actions' impact on the environment through interactive game choices.",
-
-    descriptionAr: "محاكاة تفاعلية لحساب الأثر البيئي لخياراتك وأنماط حياتك اليومية، مع تقديم حلول عملية لتقليص الانبعاثات الفردية.",
-
-    categoryEn: "Education",
-
-    categoryAr: "توعية وتعليم بيئي",
-
-    icon: "Activity",
-
-    playUrl: "/games/carbon-simulator"
-
-  },
-
-  {
-
     id: "ghaf-tree-grower",
 
     titleEn: "Plant-a-Ghaf Digital Garden",
@@ -4773,105 +4751,7 @@ export const mockTeam: TeamMember[] = [
 
 
 
-export const mockCareers: CareerNode[] = [
-
-  {
-
-    id: "solar-engineer",
-
-    titleEn: "Solar Energy Systems Engineer",
-
-    titleAr: "مهندس نظم الطاقة الشمسية",
-
-    skillsEn: ["Photovoltaics", "Grid Integration", "AutoCAD", "Project Management"],
-
-    skillsAr: ["الأنظمة الكهروضوئية", "ربط الشبكات", "أوتوكاد", "إدارة المشاريع"],
-
-    salaryEn: "$85,000 - $110,000 / year",
-
-    salaryAr: "300,000 - 450,000 درهم / سنوياً",
-
-    pathEn: "Bachelor in Engineering + Solar Specialist Certification",
-
-    pathAr: "بكالوريوس هندسة + شهادة أخصائي طاقة شمسية معتمدة",
-
-    demand: "High"
-
-  },
-
-  {
-
-    id: "sustainability-consultant",
-
-    titleEn: "Sustainability Consultant",
-
-    titleAr: "مستشار استدامة بيئية",
-
-    skillsEn: ["Carbon Accounting", "LEED Certification", "ESG Reporting"],
-
-    skillsAr: ["حساب البصمة الكربونية", "شهادة LEED", "تقارير ESG"],
-
-    salaryEn: "$75,000 - $98,000 / year",
-
-    salaryAr: "280,000 - 380,000 درهم / سنوياً",
-
-    pathEn: "Degree in Environmental Science + LEED Green Associate credential",
-
-    pathAr: "درجة في العلوم البيئية + رخصة مستشار LEED الأخضر",
-
-    demand: "Urgent"
-
-  },
-
-  {
-
-    id: "agritech-expert",
-
-    titleEn: "Agritech & Smart Farming Specialist",
-
-    titleAr: "أخصائي زراعة ذكية وتكنولوجيا زراعية",
-
-    skillsEn: ["Hydroponics", "IoT Sensors", "Precision Agriculture", "Data Analysis"],
-
-    skillsAr: ["الزراعة المائية", "مستشعرات إنترنت الأشياء", "الزراعة الدقيقة", "تحليل البيانات"],
-
-    salaryEn: "$70,000 - $92,000 / year",
-
-    salaryAr: "250,000 - 350,000 درهم / سنوياً",
-
-    pathEn: "Agricultural Tech diploma or degree + Hands-on IoT courses",
-
-    pathAr: "دبلوم أو بكالوريوس تكنولوجيا زراعية + دورات إنترنت الأشياء",
-
-    demand: "High"
-
-  },
-
-  {
-
-    id: "environmental-lawyer",
-
-    titleEn: "Climate Policy & Environmental Lawyer",
-
-    titleAr: "محامي سياسات المناخ والقوانين البيئية",
-
-    skillsEn: ["Environmental Law", "Policy Analysis", "Advocacy", "Negotiation"],
-
-    skillsAr: ["القانون البيئي", "تحليل السياسات", "المدافعة البيئية", "التفاوض"],
-
-    salaryEn: "$95,000 - $140,000 / year",
-
-    salaryAr: "350,000 - 550,000 درهم / سنوياً",
-
-    pathEn: "Law Degree (JD) + Environmental Law Specialization",
-
-    pathAr: "درجة في القانون + تخصص القوانين والتشريعات البيئية",
-
-    demand: "Medium"
-
-  }
-
-];
+export const mockCareers: CareerNode[] = [];
 
 
 

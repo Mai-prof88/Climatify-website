@@ -4419,5 +4419,85 @@ textarea.admin-form-input {
   white-space: pre-wrap;
 }
 
+.admin-cms-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(15, 23, 42, 0.58);
+  backdrop-filter: blur(4px);
+}
+
+.admin-cms-modal-box {
+  width: 100%;
+  max-width: 620px;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface, #ffffff);
+  color: var(--text, #0f172a);
+  border: 1px solid var(--border, rgba(15, 23, 42, 0.12));
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.28);
+  overflow: hidden;
+}
+
+.admin-cms-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 22px;
+  background: var(--surface, #ffffff);
+  border-bottom: 1px solid var(--border, rgba(15, 23, 42, 0.1));
+}
+
+.admin-cms-modal-header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text, #0f172a);
+}
+
+.admin-cms-modal-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid var(--border, rgba(15, 23, 42, 0.12));
+  background: var(--bg, #f8fafc);
+  color: var(--text-2, #475569);
+  cursor: pointer;
+}
+
+.admin-cms-modal-close:hover {
+  background: var(--surface-2, #e2e8f0);
+  color: var(--text, #0f172a);
+}
+
+.admin-cms-modal-body {
+  padding: 20px 22px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: var(--surface, #ffffff);
+}
+
+.admin-cms-modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border, rgba(15, 23, 42, 0.1));
+}
+
+
 
 
